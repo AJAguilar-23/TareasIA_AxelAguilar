@@ -10,11 +10,9 @@ def es_primo(n):
 
 print('Ingrese un numero :')
 n = input()
-#print(es_primo(int(n)))
-
+#print('',es_primo(int(n))) 
 
 if es_primo(int(n)) == True:
     print('El numero es primo')
 else:
     print('El numero no es primo')
-    
